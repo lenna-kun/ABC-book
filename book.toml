@@ -1,0 +1,6 @@
+[book]
+authors = ["lenna_kun"]
+language = "en"
+multilingual = false
+src = "src"
+title = "緑コーダーが書く！ABCまとめ"
