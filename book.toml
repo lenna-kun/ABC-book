@@ -1,6 +1,9 @@
 [book]
-authors = ["lenna_kun"]
-language = "en"
+authors = ["Coordinator"]
+language = "ja"
 multilingual = false
 src = "src"
 title = "緑コーダーが書く！ABCまとめ"
+
+[output.html]
+mathjax-support = true
