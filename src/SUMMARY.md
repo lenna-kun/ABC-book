@@ -2,6 +2,7 @@
 
 [はじめに](./README.md)
 - [全探索](./brute_force/main.md)
+    - [ABC201_C](./brute_force/example/abc201_c.md)
     - [bit全探索](./brute_force/bit-brute_force/main.md)
         - [ABC128_C](./brute_force/bit-brute_force/example/abc128_c.md)
 - [2分探索](./binary_search/main.md)
