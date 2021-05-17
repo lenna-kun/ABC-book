@@ -10,6 +10,7 @@
 - [2分探索](./binary_search/main.md)
 - [貪欲法](./greedy/main.md)
 - [動的計画法](./dp/main.md)
+    - [ABC129_C](./dp/example/abc129_c.md)
 - [グラフ](./graph/main.md)
     - [木](./graph/tree/main.md)
     - [ダイクストラ法](./graph/dijkstra/main.md)
