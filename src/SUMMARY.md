@@ -11,6 +11,8 @@
 - [貪欲法](./greedy/main.md)
 - [動的計画法](./dp/main.md)
     - [ABC129_C](./dp/example/abc129_c.md)
+- [連結リスト](./linkedlist/main.md)
+    - [Triumph(自作問題)](./linkedlist/example/triumph.md)
 - [グラフ](./graph/main.md)
     - [木](./graph/tree/main.md)
     - [ダイクストラ法](./graph/dijkstra/main.md)
