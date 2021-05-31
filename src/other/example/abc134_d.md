@@ -1,5 +1,5 @@
 # 調和級数(Harmonic Series) ABC134-D Preparing Boxes
-[https://atcoder.jp/contests/abc202/tasks/abc202_d](https://atcoder.jp/contests/abc202/tasks/abc202_d)
+[https://atcoder.jp/contests/abc134/tasks/abc134_d](https://atcoder.jp/contests/abc134/tasks/abc134_d)
 
 実行時間制限: 2 sec / メモリ制限: 1024 MB
 
