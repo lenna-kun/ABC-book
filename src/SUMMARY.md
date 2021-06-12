@@ -18,5 +18,7 @@
 - [グラフ](./graph/main.md)
     - [木](./graph/tree/main.md)
     - [ダイクストラ法](./graph/dijkstra/main.md)
+- [プライオリティキュー](./priorityqueue/main.md)
+    - [ABC141_D](./priorityqueue/example/abc141_d.md)
 - [その他（未分類）](./other/main.md)
     - [調和級数](./other/example/abc134_d.md)

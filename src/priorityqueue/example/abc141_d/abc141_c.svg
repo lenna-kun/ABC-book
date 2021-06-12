@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="abc141_c.svg"
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path882" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path879" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path882-9" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3367908"
+     inkscape:cx="235.81715"
+     inkscape:cy="174.91817"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     inkscape:window-width="1440"
+     inkscape:window-height="943"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid833" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#aaffaa;stroke:#000000;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect835"
+       width="6.6145835"
+       height="19.843752"
+       x="17.197916"
+       y="30.427084" />
+    <rect
+       style="fill:#ffaaaa;stroke:#000000;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect835-9"
+       width="6.6145782"
+       height="10.583336"
+       x="46.302082"
+       y="39.6875" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 11.90625,50.270833 46.302083,0"
+       id="path857"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 23.8125,30.427083 H 17.197916"
+       id="path859" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 52.916667,39.6875 H 46.302083"
+       id="path859-2" />
+    <rect
+       style="fill:#f2f2f2;stroke:#000000;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect835-90"
+       width="6.6145835"
+       height="19.843752"
+       x="17.197916"
+       y="10.583333" />
+    <rect
+       style="fill:#f2f2f2;stroke:#000000;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect835-9-2"
+       width="6.6145782"
+       height="10.583336"
+       x="46.302082"
+       y="29.104166" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583"
+       x="15.957079"
+       y="58.208332"
+       id="text951"><tspan
+         sodipodi:role="line"
+         id="tspan949"
+         x="15.957079"
+         y="58.208332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia;stroke-width:0.264583">A<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65%;font-family:Georgia;-inkscape-font-specification:Georgia;baseline-shift:sub"
+   id="tspan953">i</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583"
+       x="45.87167"
+       y="58.689449"
+       id="text951-0"><tspan
+         sodipodi:role="line"
+         id="tspan949-2"
+         x="45.87167"
+         y="58.689449"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia;stroke-width:0.264583">A<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65%;font-family:Georgia;-inkscape-font-specification:Georgia;baseline-shift:sub"
+   id="tspan953-1">i'</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 23.8125,10.583333 c 3.96875,0 3.968751,6.614583 3.968751,7.9375 0,1.322917 1.322916,1.322917 1.322916,1.322917 0,0 -1.322916,0 -1.322916,1.322917 0,1.322916 -1e-6,9.260416 -3.968751,9.260416"
+       id="path983"
+       sodipodi:nodetypes="cscsc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 52.916667,29.104167 c 3.96875,0 4.104515,2.558456 4.104515,3.881373 0,1.322917 1.322916,1.322917 1.322916,1.322917 0,0 -1.322916,0 -1.322916,1.322917 0,1.322916 -0.135765,4.056126 -4.104515,4.056126"
+       id="path983-4"
+       sodipodi:nodetypes="cscsc" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.58329999999999949px;line-height:1.25;font-family:'Noto Sans Osage';-inkscape-font-specification:'Noto Sans Osage';stroke-width:0.264583;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+       x="-1.3229166"
+       y="6.614583"
+       id="text1009"><tspan
+         sodipodi:role="line"
+         id="tspan1007"
+         x="-1.3229166"
+         y="6.614583"
+         style="stroke-width:0.264583;-inkscape-font-specification:'Noto Sans Osage';font-family:'Noto Sans Osage';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;" /></text>
+    <g
+       id="g1018"
+       transform="rotate(-36.869895,15.875001,5.2916662)">
+      <rect
+         style="fill:#ffff00;stroke:#000000;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect1005"
+         width="11.90625"
+         height="3.96875"
+         x="-2.6458333"
+         y="3.96875" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.81667px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.0704168"
+         x="-0.93352944"
+         y="7.0458226"
+         id="text1013"><tspan
+           sodipodi:role="line"
+           id="tspan1011"
+           x="-0.93352944"
+           y="7.0458226"
+           style="stroke-width:0.0704168">割引券</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 9.2604162,15.875 c 1.3229168,0 3.9687498,2.645834 5.2916668,3.96875"
+       id="path1020"
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g1018-9"
+       transform="rotate(-36.869895,58.869795,-28.442712)">
+      <rect
+         style="fill:#ffff00;stroke:#000000;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect1005-1"
+         width="11.90625"
+         height="3.96875"
+         x="-2.6458333"
+         y="3.96875" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.81667px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.0704168"
+         x="-0.93352944"
+         y="7.0458226"
+         id="text1013-7"><tspan
+           sodipodi:role="line"
+           id="tspan1011-2"
+           x="-0.93352944"
+           y="7.0458226"
+           style="stroke-width:0.0704168">割引券</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-9)"
+       d="m 39.6875,31.75 c 1.322917,0 3.96875,2.645834 5.291667,3.96875"
+       id="path1020-3"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.58329999999999949px;line-height:1.25;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';stroke-width:0.264583;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+       x="29.104166"
+       y="19.84375"
+       id="text1303"><tspan
+         sodipodi:role="line"
+         id="tspan1301"
+         x="29.104166"
+         y="19.84375"
+         style="stroke-width:0.264583;-inkscape-font-specification:'Hiragino Kaku Gothic Std';font-family:'Hiragino Kaku Gothic Std';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;" /></text>
+    <text
+       xml:space="preserve"
+       x="35.777611"
+       y="20.012745"
+       id="text951-7"
+       style="font-size:4.31941px;stroke-width:0.359951"><tspan
+         sodipodi:role="line"
+         id="tspan949-8"
+         x="35.777611"
+         y="20.012745"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia;baseline-shift:baseline;stroke-width:0.0952369">割引額A<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia;baseline-shift:baseline;stroke-width:0.0952369"
+   id="tspan953-7"><tspan
+   style="font-size:2.80762px;baseline-shift:sub;stroke-width:0.0952369"
+   id="tspan1384">i</tspan> /2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       x="60.720417"
+       y="35.370422"
+       id="text951-0-1"
+       style="font-size:4.31941px;stroke-width:0.359951"><tspan
+         sodipodi:role="line"
+         id="tspan949-2-5"
+         x="60.720417"
+         y="35.370422"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia;baseline-shift:baseline;stroke-width:0.0952369">割引額A<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia;baseline-shift:baseline;stroke-width:0.0952369"
+   id="tspan953-1-5"><tspan
+   style="font-size:2.80762px;baseline-shift:sub;stroke-width:0.0952369"
+   id="tspan1382">i'</tspan> /2</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 56.332677,24.970979 6.140343,3.612386 -1.618853,-6.937756"
+       id="path1400" />
+  </g>
+</svg>
