@@ -17,7 +17,7 @@ Pythonでは，[heapq](https://docs.python.org/3/library/heapq.html)
 # L : List(Lはリスト)
 # Convert L from List to Priority Queue(Lをプライオリティキューに変更)
 import heapq # Use heapq library(heapqライブラリを使用)
-L = [1,2,3,4,5]
+L = [1, 2, 3, 4, 5]
 heapq.heapify(L)
 
 # heappop: pop out the minimum number and return it 
