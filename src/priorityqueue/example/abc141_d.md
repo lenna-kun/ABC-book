@@ -1,10 +1,11 @@
-#  ABC201 D - Powerful Discount Tickets
+#  ABC141 D - Powerful Discount Tickets
 
 [https://atcoder.jp/contests/abc141/tasks/abc141_d](https://atcoder.jp/contests/abc141/tasks/abc141_d)
 
 実行時間制限: 2 sec / メモリ制限: 1024 MB
 
 ## 問題文
+
 高橋くんは\\(N\\)個の品物を\\(1\\)個ずつ順番に買う予定です。
 
 \\(i\\)番目に買う品物の値段は \\(A_i\\)円です。高橋くんは \\(M\\) の割引券を持っています。
@@ -16,11 +17,13 @@
 最小で何円あれば全ての品物を買うことができるでしょうか。
 
 ## 制約
+
  - 入力は全て整数である
  - \\(1\leq N, M \leq  10 ^ 5 \\)
  - \\(1\leq A_i \leq  10 ^ 9 \\)
 
 # 解法
+
 割引券を\\(1\\)枚使った場合をまず考える。この時、以下のように高額な品物に割引券を使った方が支払うお金を抑えられることがわかる。
 
 <div align="center"><img src="abc141_d/abc141_d_1.png"></div>
@@ -36,7 +39,7 @@
  3. 1、2を商品券がなくなるまで（すなわち\\(M\\)回）繰り返す。
  4. 最後に残った（割引済）商品の価格の和を求める。
 
-次に実際の実装について。上記を実現するに当たって、商品の価格を，常にソートされた配列で持つ場合、以下の2つの操作を毎回行う必要がある。
+次に実際の実装について。上記を実現するに当たって、商品の価格を常にソートされた配列で持つ場合、以下の2つの操作を毎回行う必要がある。
  
  - 最も高い商品を見つける
  - その商品の値の変更（もっとも高い商品を半額にすること）
@@ -46,52 +49,34 @@
 
 そこで<font color="red"><b>プライオリティキュー</b></font>を使う。プライオリティキューでは、要素の追加、取り出しの計算量が\\(O(\log N)\\)であるため、これを用いた場合、全体の計算量は\\(O(M \log N)\\)となって間に合う。
 
-Pythonには[heapq](https://docs.python.org/3/library/heapq.html)
-というライブラリがあるので、それを使えば特に複雑な実装をすることなく普通の配列をプライオリティキュー化可能である。
-
-ところが最大値を見つけて取り出す関数はない（heapq.nlargestの計算量は\\(O(n)\\)以上\\(O(n \log n)\\)以下であり計算量が大きい上にプライオリティキューからの取り出しはできない）。
-しかし、今回のように最大値を取り出したい場合は<b>元の配列の要素を全て\\(-1\\)倍した配列をプライオリティキュー化すれば、その最小値を取り出すことは元の数列の最大値（の\\(-1\\)倍）の値が取り出せる</b>ことを利用する。そして最後に残った配列の要素を再び\\(-1\\)倍して元に戻せば良い。
-この手法で、本問題を解いてみる。
+プライオリティキューに、最大値を見つけて取り出す関数はない（heapq.nlargestの計算量は\\(O(N)\\)以上\\(O(N \log N)\\)以下であり計算量が大きい上にプライオリティキューからの取り出しはできない）ので、今回のように最大値を取り出したい場合は、<b>要素を全て\\(-1\\)倍したプライオリティキューを用いることで、最大値（の\\(-1\\)倍）の値を取り出す</b>ことが可能である。
+この手法で、本問題を解くことができます。
 
 ## 実装
 
 ```py
+import heapq
+
 N, M = map(int,input().split())
-A = list(map(int,input().split()))
+A = [*map(int,input().split())]
 
 # multiply -1 to all the elements (全てのAの要素に-1をかける)
 A = [-a for a in A]
 
-# p: number of used discount tickets (pは使用した割引券の数)
-p = 0
-
 # convert list to priority queue (Aをプライオリティキュー化)
-import heapq
 heapq.heapify(A)
 
-# apply discount ticket to the most expensive product 
-# until p reaches to M. 
-# pがMになるまで、最高価格の商品に商品券を適用する。
-
-while p < M:
-    tmp = heapq.heappop(A)
-
-    # pop the most expensive(this case, the minimum number), 
-    # divide by 2 (and add 1 if the original number is negative even)
-    # then add to the priority queue  
-    # もっとも高価な商品を取り出し（ただし負数にしているので最小値）２で割って割引した値段にし
-    # (奇数の場合2で割ってから1を加える必要があることに注意)、元のプライオリティキューに加え直す
-
-    tmp = tmp // 2 + int(tmp % 2 == 1)
-    heapq.heappush(A, tmp)
-
-    #consume one discount ticket(商品券を1枚消費する)
-    p += 1
-    if p == M:
-        break
+# pop the most expensive(this case, the minimum number), 
+# divide by 2 (and add 1 if the original number is negative even)
+# then add to the priority queue.
+# repeat this M times.
+# もっとも高価な商品を取り出し（ただし負数にしているので最小値）２で割って割引した値段にし、元のプライオリティキューに加え直す
+# これをM回繰り返す
+for _ in range(M):
+    price = -heappop(A)
+    heappush(A, -(price//2))
 
 # culculate the sum of the last left priority queue and multiply -1
 # 最後に残ったプライオリティキューの合計値を求めて、-1をかけて元に戻す
 print(-sum(A))
 ```
-
